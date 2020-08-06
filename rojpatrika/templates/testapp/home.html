@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+{%extends 'testapp/base.html'%}
+{%block body-block%}
+{%load staticfiles%}
+   <section id="stories">
+    <div class="container">
+     <div class="row">
+       <div class="col-sm-3">
+         <div class="stories_1">
+         <h5>Trending News</h5>
+         <a href="#"><img src="{%static "img/1.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1 bold_1"><a href="#">Lorem ipsum dolor sit amet</a></li>
+          <li class="border_bottom_1"><a href="#">Consectetur adipiscing elit integer nec</a></li>
+           <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam.</a></li>
+          <li class="border_bottom_1"><a href="#">Nulla quis sem at nibh  imperdiet.</a></li>
+           <li class="border_bottom_1"><a href="#">Duis sagittis ipsum. Praesent mauris.</a></li>
+          <li class="border_bottom_1"><a href="#"> Fusce nec tellus sed augue semper porta.</a></li>
+          <li class="border_bottom_1"><a href="#">Vestibulum lacinia arcu eget nulla</a></li>
+          <li class="border_bottom_1"><a href="#">Class aptent taciti sociosqu ad litora </a></li>
+          <li><a href="#">Class aptent taciti sociosqu ad litora </a></li>
+         </ul>
+         </div>
+       </div>
+       <!-- <div class="col-sm-9">
+        <div class="stories_2">
+          <h1 class="text-center"><a href="#">Curabitursodales</a></h1>
+          <div class="story_image">
+           <div><a href="#"><img src="img/2.jpg" width="100%"></a></div>
+           <div class="story_heading"><h5>LATEST STORIES</h5></div>
+          </div>
+          <div class="stories_3">
+    <a class="a_1" href="#"> Curabitursodales ligula in libero. Sed dignissim lacinia nunc.</a>
+ <p><a href="#"><span>Inceptos:</span> Sed dignissim lacinia </a>
+ <a href="#"><span>Take a Look:</span> 5 Month to go </a>
+ <a href="#"><span>Target:</span> We finished</a>
+ <a class="border_none_1" href="#">'Thank you' Text</a></p>
+          
+          </div>
+        </div>
+       </div>
+     </div>
+    </div> -->
+    
+ <!-- ### -->
+ 
+ <div class="col-sm-6">
+         <div class="stories_1 feature_1">
+         <h5>Popular</h5>
+         <a href="#"><img src="{%static "img/4.jpg" %}" width="100%"></a>
+         <div class="buzz_1">
+    <a href="#">Duis sagittis ipsum. Praesent mauris</a>
+          </div>
+         </div>
+         <div class="col-sm-12 buzz_main">
+             <div class="col-sm-5 buzz_inner">
+               <div class="buzz_2">
+                 <img src="{%static "img/5.jpg" %}" width="100%">
+               </div>
+             </div>
+             <div class="col-sm-7 buzz_inner_1">
+               <a href="#">Quis sem at nibh elementum imperdiet</a>
+               <p class="para_next">  Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+             </div>
+         </div>
+         <div class="col-sm-12 buzz_main">
+             <div class="col-sm-5 buzz_inner">
+               <div class="buzz_2">
+                 <img src="{%static "img/6.jpg" %}" width="100%">
+               </div>
+             </div>
+             <div class="col-sm-7 buzz_inner_1 border_top_1">
+               <a href="#">Quis sem at nibh elementum imperdiet</a>
+               <p class="para_next">  Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+             </div>
+         </div>
+       </div>
+       <div class="col-sm-3">
+        <div class="buzz_3">
+         <a href="#"><img src="{%static "img/7.jpg" %}" width="100%" height="250px"></a>
+         <h5>Most Famous</h5>
+         <div class="col-sm-12 buzz_3_main">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/8.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_2">
+             <a href="#">The world which can't  be defeated</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/9.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+              <p><a href="#">Trending Context</a></p>
+             <a href="#">The world is in your own hand</a>
+             <p><a href="#">Which belongs to you</a></p>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/10.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_2">
+             <a href="#">The world which can't be defeated</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/11.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+              <p><a href="#">Trending Context</a></p>
+             <a href="#">The world is in your own hand</a>
+             <p><a href="#">Which belongs to you</a></p>
+            </div>
+           </div>
+         </div>
+        </div>
+       </div>
+     </div>
+    </div>
+ 
+ 
+ 
+ <!-- ### -->
+    
+    
+   </section>
+   
+   <section id="buzz">
+    <div class="container">
+     <div class="row">
+       <div class="col-sm-3">
+         <div class="stories_1">
+         <h5>Story and Area</h5>
+         <a href="#"><img src="{%static "img/3.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1"><a href="#">Curabitursodales ligula in libero</a></li>
+           <li class="border_bottom_1"><a href="#">Class aptent taciti sociosqu ad litora</a></li>
+          <li class="border_bottom_1"><a href="#">Fusce nec tellus sed augue semper porta.</a></li>
+          <li class="border_bottom_1"><a href="#">Nulla quis sem at nibh imperdiet.</a></li>
+          <li class="border_bottom_1"><a href="#">Duis sagittis ipsum. Praesent mauris.</a></li>
+          <li class="border_bottom_1"><a href="#">Consectetur adipiscing elit integer nec</a></li>
+          <li class="border_bottom_1"><a href="#">Tellus sed augue semper porta  massa.</a></li>
+           <li class="border_bottom_1"><a href="#">Vestibulum lacinia arcu eget nulla</a></li>
+           <li class="border_bottom_1"><a href="#">Nulla quis sem at nibh imperdiet.</a></li>
+          <li class="border_bottom_1"><a href="#">Duis sagittis ipsum. Praesent mauris.</a></li>
+          <li><a href="#">Curabitursodales ligula in libero</a></li>
+         </ul>
+         </div>
+       </div>
+      <!--  <div class="col-sm-6">
+         <div class="stories_1 feature_1">
+         <h5>Popular</h5>
+         <a href="#"><img src="img/4.jpg" width="100%"></a>
+         <div class="buzz_1">
+    <a href="#">Duis sagittis ipsum. Praesent mauris</a>
+          </div>
+         </div>
+         <div class="col-sm-12 buzz_main">
+             <div class="col-sm-5 buzz_inner">
+               <div class="buzz_2">
+                 <img src="img/5.jpg" width="100%">
+               </div>
+             </div>
+             <div class="col-sm-7 buzz_inner_1">
+               <a href="#">Quis sem at nibh elementum imperdiet</a>
+               <p class="para_next">  Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+             </div>
+         </div>
+         <div class="col-sm-12 buzz_main">
+             <div class="col-sm-5 buzz_inner">
+               <div class="buzz_2">
+                 <img src="img/6.jpg" width="100%">
+               </div>
+             </div>
+             <div class="col-sm-7 buzz_inner_1 border_top_1">
+               <a href="#">Quis sem at nibh elementum imperdiet</a>
+               <p class="para_next">  Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+             </div>
+         </div>
+       </div> -->
+       
+     <!-- ##### -->
+     
+             <div class="col-sm-6">
+               <div class="stories_1 feature_1">
+                <h5>Latest World Stories</h5>
+                <ul>
+                 <li><a href="#">Nulla quis sem at nibh elementum imperdiet.</a></li>
+                 <li><a href="#">Consectetur adipiscing elit. Integer nec odio sit amet</a></li>
+                 <li><a href="#">Fusce nec tellus sed augue semper porta.</a></li>
+                 <li><a href="#">Mauris massa Vestibulum lacinia arcu eget nulla.</a></li>
+                 <li><a href="#">Duis sagittis ipsum. Praesent mauris</a></li>
+                 <li><a href="#">Sed cursus ante dapibus diam.</a></li>
+                 <li><a href="#">Curabitursodales ligula in libero sed dignissim lacinia nunc.</a></li>
+                 <li><a href="#">Vestibulum lacinia arcu eget nulla class aptent</a></li>
+                 <li><a href="#">Taciti sociosqu ad litora torquent per conubia nostra</a></li>
+                 <li class="border_none_1"><a href="#">Per inceptos himenaeos. Curabitursodales ligula in libero?</a></li>
+                 <li><a href="#">Vestibulum lacinia arcu eget nulla class aptent</a></li>
+                 <li><a href="#">Taciti sociosqu ad litora torquent per conubia nostra</a></li>
+                 <li class="border_none_1"><a href="#">Per inceptos himenaeos. Curabitursodales ligula in libero?</a></li>
+                 <li><a href="#">Vestibulum lacinia arcu eget nulla class aptent</a></li>
+                 <li><a href="#">Taciti sociosqu ad litora torquent per conubia nostra</a></li>
+                 <li class="border_none_1"><a href="#">Per inceptos himenaeos. Curabitursodales ligula in libero?</a></li>
+                 <li><a href="#">Vestibulum lacinia arcu eget nulla class aptent</a></li>
+                 <li><a href="#">Taciti sociosqu ad litora torquent per conubia nostra</a></li>
+                 <li class="border_none_1"><a href="#">Per inceptos himenaeos. Curabitursodales ligula in libero?</a></li>
+                 <li><a href="#">Vestibulum lacinia arcu eget nulla class aptent</a></li>
+                 <li><a href="#">Taciti sociosqu ad litora torquent per conubia nostra</a></li>
+                 <li class="border_none_1"><a href="#">Per inceptos himenaeos. Curabitursodales ligula in libero?</a></li>
+                </ul>
+               </div>
+             </div>
+     
+     
+     
+     
+     
+     <!-- #### -->
+     
+       <div class="col-sm-3">
+        <div class="buzz_3">
+         <a href="#"><img src="{%static "img/7.jpg" %}" width="100%" height="250px"></a>
+         <h5>Most Famous</h5>
+         <div class="col-sm-12 buzz_3_main">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/8.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_2">
+             <a href="#">The world which can't  be defeated</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/9.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+              <p><a href="#">Trending Context</a></p>
+             <a href="#">The world is in your own hand</a>
+             <p><a href="#">Which belongs to you</a></p>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/10.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_2">
+             <a href="#">The world which can't be defeated</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/11.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+              <p><a href="#">Trending Context</a></p>
+             <a href="#">The world is in your own hand</a>
+             <p><a href="#">Which belongs to you</a></p>
+            </div>
+           </div>
+         </div>
+        </div>
+       </div>
+     </div>
+    </div>
+   </section>
+   
+   <section id="detail">
+    <div class="container">
+     <div class="row">
+      <div class="col-sm-3">
+       <div class="stories_1">
+         <h5>Take a deep action</h5>
+         <a href="#"><img src="{%static "img/12.jpg" %}" width="100%"></a>
+         <ul>
+          <li class=" bold_1"><a href="#">Which is universily correct and appealing</a></li>
+         </ul>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/13.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/14.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Latest  items of this year</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/15.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Is this thing is worthy</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/16.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Sed cursus ante dapibus diam. Sed nisi.</a>
+            </div>
+           </div>
+         </div>
+         </div>
+      </div>
+      <div class="col-sm-6">
+       <div class="stories_1 feature_1">
+         
+         <a href="#"><img src="{%static "img/17.jpg" %}" width="100%" height="200px"></a>
+         <div class="buzz_1">
+    <a href="#">Nulla quis sem at nibh elementum imperdiet duis sagittis ipsum</a>
+          </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/18.jpg" %}" width="100%"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Trending context the world is in your own hand</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/19.jpg" %}" width="100%"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Trending context the world is in your own hand</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src= "{%static "img/20.jpg" %}" width="100%"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Trending context the world is in your own hand</a>
+            </div>
+           </div>
+         </div>
+      </div>
+      <div class="col-sm-3">
+       <div class="stories_1">
+         <h5>Comments</h5>
+         <a href="#"><img src="{%static "img/21.jpg" %}" width="100%"></a>
+         <ul>
+          <li class=" bold_1"><a href="#">Elementum quis  sagittis ipsum nulla quis sem at nibh </a></li>
+         </ul>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/22.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Lorem ipsum  consectetur adipiscing elit</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/23.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Elementum quis sagittis ipsum nulla quis sem.</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/24.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Which is universily correct and appealing honest</a>
+            </div>
+           </div>
+         </div>
+         <div class="col-sm-12 buzz_3_main border_top_1">
+           <div class="col-sm-4">
+             <div class="spot_1">
+               <a href="#"><img src="{%static "img/25.jpg" %}"></a>
+             </div>
+           </div>
+           <div class="col-sm-8">
+            <div class="spot_3">
+             <a href="#">Which is universily correct and appealing honest</a>
+            </div>
+           </div>
+         </div>
+         </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   
+   <section id="features">
+     <div class="container">
+      <div class="row">
+       <div class="col-sm-12">
+        <div class="features_1">
+         <h2>Featuring Present</h2>
+        </div>
+       </div>
+       <div class="col-sm-12">
+        <div class="features_2">
+         <div class="col-sm-4 f_1">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Game</h5></a>
+         <a href="#"><img src="{%static "img/26.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1 bold_1"><a href="#">Consectetur adipiscing elit. Integer nec odio.</a></li>
+          <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam. </a></li>
+           <li class="border_bottom_1"><a href="#">Duis sagittis ipsum. Praesent mauris sagittis </a></li>
+          <li class="border_bottom_1"><a href="#">Trending context the world is in your own hand</a></li>
+          <li><a href="#">Elementum quis sagittis ipsum nulla quis sem. </a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 ">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Journey</h5></a>
+         <a href="#"><img src="{%static "img/27.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1 bold_1"><a href="#">Consectetur adipiscing elit. Integer nec odio.</a></li>
+          <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam. </a></li>
+           <li class="border_bottom_1"><a href="#">Trending context the world is in your own hand</a></li>
+          <li class="border_bottom_1"><a href="#">Duis sagittis ipsum. Praesent mauris sagittis</a></li>
+          <li><a href="#">Elementum quis sagittis ipsum nulla quis sem.</a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 ">
+           <div class="stories_1">
+         <a href="#"><img  class="thumb_1" src="{%static "img/28.jpg" %}" width="100%" height="250px"></a>
+          <h5>Related World Content</h5>
+           <ul>
+          <li class="border_bottom_1"><a href="#">Elementum quis sagittis ipsum nulla.<span>WORLD Current System</span></a></li>
+           <li class="border_bottom_1"><a href="#">Elementum quis sagittis ipsum nulla.<span> WORLD Current System</span> </a></li>
+          <li><a href="#">Elementum quis sagittis ipsum nulla. <span>WORLD Current System</span> </a></li>
+         </ul>
+         </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+   </section>
+   
+   <section id="features" class="fetur_1">
+     <div class="container">
+      <div class="row">
+       <div class="col-sm-12">
+        <div class="features_2">
+         <div class="col-sm-4 f_1">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Fashion</h5></a>
+         <a href="#"><img src="{%static "img/29.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1 bold_1"><a href="#">Nulla quis sem at nibh elementum imperdiet.</a></li>
+          <li class="border_bottom_1"><a href="#">Fusce nec tellus sed augue semper porta. </a></li>
+           <li class="border_bottom_1"><a href="#">Trending context the world is in your own hand </a></li>
+          <li class="border_bottom_1"><a href="#">Elementum quis sagittis ipsum nulla quis sem.</a></li>
+          <li><a href="#">Vestibulum lacinia arcu eget nulla</a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 ">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>WORLD Currency</h5></a>
+         <a href="#"><img src="{%static  "img/29.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1 bold_1"><a href="#">Nulla quis sem at nibh elementum imperdiet.</a></li>
+          <li class="border_bottom_1"><a href="#">Vestibulum lacinia arcu eget nulla</a></li>
+           <li class="border_bottom_1"><a href="#">Elementum quis sagittis ipsum nulla quis sem. </a></li>
+          <li class="border_bottom_1"><a href="#">Fusce nec tellus sed augue semper porta. </a></li>
+          <li><a href="#">Trending context the world is in your own hand </a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 f_1">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Trending Project</h5></a>
+         <a href="#"><img src="{%static "img/31.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1 bold_1"><a href="#">Nulla quis sem at nibh elementum imperdiet.</a></li>
+          <li class="border_bottom_1"><a href="#">Elementum quis sagittis ipsum nulla quis sem. </a></li>
+          <li class="border_bottom_1"><a href="#">Fusce nec tellus sed augue semper porta.</a></li>
+           <li class="border_bottom_1"><a href="#">Trending context the world is in your own hand </a></li>
+          <li class="border_bottom_1"><a href="#">Vestibulum lacinia arcu eget nulla </a></li>
+          <li><a href="#">Class aptent taciti sociosqu ad litora </a></li>
+         </ul>
+         </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+   </section>
+   
+   <section id="preview">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+        <div class="features_1">
+         <h2>Preview</h2>
+        </div>
+       </div>
+        <div class="col-sm-12">
+        <div class="preview_1">
+         <a href="#"><h4>Important videos</h4></a>
+        </div>
+       </div>
+        <div class="col-sm-12">
+         <div class="col-sm-3">
+           <div class="preview_2">
+             <a href="#"><img src="{%static "img/32.jpg" %}" width="100%"></a>
+              <p><a href="#">Duis sagittis ipsum. Praesent mauris</a></p>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="preview_2">
+             <a href="#"><img src="{%static "img/33.jpg" %}" width="100%"></a>
+              <p><a href="#">Duis sagittis ipsum. Praesent mauris</a></p>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="preview_2">
+             <a href="#"><img src="{%static "img/34.jpg" %}" width="100%"></a>
+              <p><a href="#">Duis sagittis ipsum. Praesent mauris</a></p>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="preview_2">
+             <a href="#"><img src="{%static "img/35.jpg" %}" width="100%"></a>
+              <p><a href="#">Duis sagittis ipsum. Praesent mauris</a></p>
+           </div>
+         </div>
+        </div>
+        <div class="col-sm-12 preview_main">
+         <div class="col-sm-3">
+           <div class="preview_2">
+             <a href="#"><img src="{%static "img/36.jpg" %}" width="100%"></a>
+              <p><a href="#">Fusce nec tellus sed augue semper porta.</a></p>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="preview_2">
+             <a href="#"><img src="{%static "img/37.jpg" %}" width="100%"></a>
+              <p><a href="#">Fusce nec tellus sed augue semper porta.</a></p>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="preview_2">
+             <a href="#"><img src="{%static "img/37.jpg" %}" width="100%"></a>
+              <p><a href="#">Fusce nec tellus sed augue semper porta.</a></p>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="preview_2">
+             <a href="#"><img src="{%static "img/39.jpg" %}" width="100%"></a>
+              <p><a href="#">Fusce nec tellus sed augue semper porta.</a></p>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   
+   <section id="trending">
+    <div class="container">
+     <div class="row">
+      <div class="col-sm-12">
+        <div class="features_1">
+         <h2>Libero nec  libero  odio</h2>
+        </div>
+       </div>
+       <div class="col-sm-12">
+         <div class="col-sm-9">
+          <div class="col-sm-12 trend_1">
+           <div class="col-sm-4">
+             <div class="preview_2">
+             <a href="#"><img src="{%static "img/40.jpg" %}" width="100%"></a>
+              <p><a href="#">Consectetur adipiscing elit</a></p>
+           </div>
+           </div>
+           <div class="col-sm-4">
+             <div class="preview_2">
+             <a href="#"><img src="{%static "img/41.jpg" %}" width="100%"></a>
+              <p><a href="#">Integer nec Praesent libero.</a></p>
+           </div>
+           </div>
+           <div class="col-sm-4">
+             <div class="preview_2">
+             <a href="#"><img src="{%static "img/42.jpg" %}" width="100%"></a>
+              <p><a href="#">Sed cursus ante dapibus diam.</a></p>
+           </div>
+           </div>
+           </div>
+           <div class="col-sm-12 trend">
+           <div class="col-sm-4">
+             <div class="preview_2">
+             <a href="#"><img src="{%static "img/43.jpg" %}" width="100%"></a>
+              <p><a href="#">Fusce nec tellus sed augue semper porta.</a></p>
+           </div>
+           </div>
+           <div class="col-sm-4">
+             <div class="preview_2">
+             <a href="#"><img src="{%static "img/44.jpg" %}" width="100%"></a>
+              <p><a href="#">Fusce nec tellus sed augue semper porta...</a></p>
+           </div>
+           </div>
+           <div class="col-sm-4">
+             <div class="preview_2">
+             <a href="#"><img src="{%static "img/45.jpg" %}" width="100%"></a>
+              <p><a href="#">Fusce nec tellus sed augue semper porta.</a></p>
+           </div>
+           </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="trending_1">
+            <img src="{%static "img/46.jpg" %}" width="100%" height="250px">
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>
+   </section>
+   
+   <section id="content">
+    <div class="container">
+     <div class="row">
+      <div class="col-sm-12">
+        <div class="features_1">
+         <h2>Ante Dapibus cursus</h2>
+        </div>
+       </div>
+      <div class="col-sm-12 count_1">
+        <div class="features_2">
+         <div class="col-sm-4 f_1">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>WORLD Main Transport</h5></a>
+         <a href="#"><img src="{%static "img/47.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1 bold_1"><a href="#">Libero / Dapibus a Nulla quis Transport?</a></li>
+          <li class="border_bottom_1"><a href="#">Tellus sed augue semper porta massa. </a></li>
+          <li><a href="#">Duis sagittis ipsum. Praesent mauris sagittis</a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 ">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Currency Main World</h5></a>
+         <a href="#"><img src="{%static "img/48.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1 bold_1"><a href="#">Libero / Dapibus a Nulla quis Transport?</a></li>
+          <li class="border_bottom_1"><a href="#">Tellus sed augue semper porta massa. </a></li>
+          <li><a href="#">Duis sagittis ipsum. Praesent mauris sagittis </a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 f_1">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>National Currency Product</h5></a>
+         <a href="#"><img src="{%static "img/49.jpg" %}" width="100%"></a>
+         <ul>
+          <li class="border_bottom_1 bold_1"><a href="#">Libero / Dapibus a Nulla quis Transport?</a></li>
+          <li class="border_bottom_1"><a href="#">Tellus sed augue semper porta massa. </a></li>
+          <li><a href="#">Duis sagittis ipsum. Praesent mauris sagittis</a></li>
+         </ul>
+         </div>
+         </div>
+        </div>
+      </div>
+      <div class="col-sm-12 count_1">
+        <div class="features_2">
+         <div class="col-sm-4 f_1">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Newly Offers!</h5></a>
+         <ul>
+          <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam </a></li>
+          <li class="border_bottom_1"><a href="#">Nulla quis sem at nibh elementum imperdiet </a></li>
+          <li><a href="#">Fusce nec tellus sed augue semper porta</a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 ">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Currency In Overseas</h5></a>
+             <ul>
+          <li class="border_bottom_1"><a href="#">Fusce nec tellus sed augue semper porta </a></li>
+          <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam </a></li>
+          <li><a href="#">Nulla quis sem at nibh elementum imperdiet</a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 f_1">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Progress Business World</h5></a>
+         <ul>
+         <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam </a></li>
+          <li class="border_bottom_1"><a href="#">Nulla quis sem at nibh elementum imperdiet </a></li>
+          <li><a href="#">Fusce nec tellus sed augue semper porta</a></li>
+         </ul>
+         </div>
+         </div>
+        </div>
+      </div>
+      <div class="col-sm-12 count_1">
+        <div class="features_2">
+         <div class="col-sm-4 f_1">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Fitness World</h5></a>
+         <ul>
+          <li class="border_bottom_1"><a href="#">Fusce nec tellus sed augue semper porta </a></li>
+          <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam </a></li>
+          <li><a href="#">Nulla quis sem at nibh elementum imperdiet</a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 ">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>About Your State</h5></a>
+             <ul>
+         <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam </a></li>
+          <li class="border_bottom_1"><a href="#">Nulla quis sem at nibh elementum imperdiet </a></li>
+          <li><a href="#">Fusce nec tellus sed augue semper porta</a></li>
+         </ul>
+         </div>
+         </div>
+         <div class="col-sm-4 f_1">
+           <div class="stories_1">
+            <a  class="heading_tag" href="#"><h5>Your Computer World</h5></a>
+         <ul>
+         <li class="border_bottom_1"><a href="#">Fusce nec tellus sed augue semper porta </a></li>
+          <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam </a></li>
+          <li><a href="#">Nulla quis sem at nibh elementum imperdiet</a></li>
+         </ul>
+         </div>
+         </div>
+        </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   
+   <section id="copyright">
+     <div class="container">
+       <div class="row">
+        <div class="col-sm-12">
+        <div class="features_1">
+         <h2>In Same You Called It</h2>
+        </div>
+       </div>
+       <div class="col-sm-12 count_2">
+        <div class="col-sm-7">
+          <div class="stories_1 feature_1">
+         <a href="#"><img src="{%static "img/50.jpg" %}" width="100%" height="260px"></a>
+         <div class="buzz_1">
+    <a href="#"> Mauris massa.Vestibulum lacinia arcu eget nulla.Class aptent taciti </a>
+          </div>
+         </div>
+        </div>
+        <div class="col-sm-5">
+          <div class="stories_1">
+         <ul>
+          <li class="border_bottom_1"><a href="#">Class aptent taciti sociosqu ad litora  </a></li>
+          <li class="border_bottom_1"><a href="#">Curabitursodales ligula in libero</a></li>
+          <li class="border_bottom_1"><a href="#">Duis sagittis ipsum. Praesent mauris sagittis</a></li>
+          <li class="border_bottom_1"><a href="#">Vestibulum lacinia arcu eget nulla </a></li>
+          <li class="border_bottom_1"><a href="#">Tellus sed augue semper porta massa.?</a></li>
+          <li class="border_bottom_1"><a href="#">Consectetur adipiscing elit integer nec</a></li>
+          <li class="border_bottom_1"><a href="#">Duis sagittis ipsum. Praesent mauris. </a></li>
+          <li class="border_bottom_1"><a href="#">Nulla quis sem at nibh imperdiet.</a></li>
+          <li class="border_bottom_1"><a href="#">'Fusce nec tellus sed augue semper porta.?'</a></li>
+          <li class="border_bottom_1"><a href="#">Class aptent taciti sociosqu ad litora</a></li>
+          <li class="border_none_1"><a href="#">Curabitursodales ligula in libero </a></li>
+         </ul>
+         </div>
+        </div>
+       </div>
+       </div>
+     </div> 
+   </section>
+   
+ 
+{%endblock%}

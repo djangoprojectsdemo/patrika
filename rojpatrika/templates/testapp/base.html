@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>News</title>
+    <link href="{%static "css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="{%static "css/style.css" %}" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="{%static  "css/font-awesome.min.css" %}" />
+	 <link href="https://fonts.googleapis.com/css?family=Kanit|PT+Sans+Narrow|Share+Tech" rel="stylesheet">
+    <script src="{%static  "js/jquery-2.1.1.min.js" %}"></script>
+	<script src="{%static  "js/bootstrap.min.js" %}"></script>
+
+  </head>
+  <body>
+    <section id="top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+       <div class="container">
+         <div class="navbar-header clearfix">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>      </button>
+           <div class="brand_1 clearfix"><a class="navbar-brand" href="index-Copy.html">Rojpartika</a></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+         </div>
+         
+         <div>
+           <div class="collapse navbar-collapse" id="myNavbar">
+             <ul class="nav navbar-nav">
+               <li><a class="active_1" href="/">Home</a></li>
+               <li><a class="" href="/states">States</a></li>
+               <!-- <li><a class="" href="politics.html">Blog</a></li> -->
+               <li><a class=""  href="/detail">Detail</a></li>
+               <!-- <li><a class=""  href="pages.html">Pages</a></li>
+               <li><a  class="" href="contact.html">Contact</a></li> -->
+               <li class="dropdown dropdown-large">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">All Sections <b class="caret"></b></a>
+                     
+                     <ul class="dropdown-menu dropdown-menu-large row">
+                         <!-- <li class="col-sm-3"> -->
+                          <!-- <a class="space_none" href="#"><img src="img/122.jpg" width="100%"></a> -->
+                          <!-- <a class="space_none" href="#"><img src="img/123.jpg" width="100%"></a>					</li> -->
+                         <!-- <li class="col-sm-3"> -->
+                          <!-- <a class="space_none" href="#"><img src="img/124.jpg" width="100%"></a> -->
+                          <!-- <a class="space_none" href="#"><img src="img/125.jpg" width="100%"></a>					</li> -->
+                         <li class="col-sm-3">
+                             <ul>
+                                 <li class="dropdown-header">Tech</li>
+                                 <li><a href="#">Mobiles</a></li>
+                                 <li><a href="#">Pcs</a></li>
+                                 <li><a href="#">Apps</a></li>
+                                 <li><a href="#">IT Services</a></li>
+                                 <li><a href="#">Gaming</a></li>
+                                 <li><a href="#">Telecom</a></li>
+     
+                                 <li class="divider"></li>
+                                 <li class="dropdown-header">Automobiles</li>
+                                 <li><a href="#">Cars</a></li>
+                                 <li><a href="#">Bikes</a></li>
+                                 <li><a href="#">New Lauches</a></li>
+                                 
+                                 <li class="divider"><li>
+                                 <li class="dropdown-header">Economy</li>
+                                 <li><a href="#">Sensex</a></li>
+                                 
+                             </ul>
+                         </li>
+                         <li class="col-sm-3">
+                         
+                             <ul>
+                                 <li class="dropdown-header">Education</li>
+                                 <li><a href="#">Board Exams</a></li>
+                                 <li><a href="#">Entrance Exams</a></li>
+                                 <li><a href="#">Study Aboard</a></li>
+                                 
+                                 <li class="divider"></li>
+                                 <li class="dropdown-header">Environment</li>
+                                 <li><a href="#">Pollution</a></li>
+                                 <li><a href="#">Development Issues</a></li>
+                                 <li><a href="#">Global Warming</a></li>
+                                 
+                                 <li class="divider"></li>
+                                 <li class="dropdown-header">Science</li>
+                                 <li><a href="#">Astronomy</a></li>
+                                 <li><a href="#">ISRO News</a></li>
+                                 <li><a href="#">NASA</a></li>
+                                 <li><a href="#">Spacex</a></li>
+                             </ul>
+                         </li>
+                         <li class="col-sm-3">
+                         
+                             <ul>
+                                 <li class="dropdown-header">Politics</li>
+                                 <li><a href="#">Election</a></li>
+                                 <li><a href="#">News</a></li>
+                                 <li><a href="#">Videos</a></li>
+                                 
+                                 <li class="divider"></li>
+                                 <li class="dropdown-header">Entertainment</li>
+                                 <li><a href="#">Tv</a></li>
+                                 <li><a href="#">Videos</a></li>
+                                 <li><a href="#">Movies</a></li>
+                                 <li><a href="#">Web Series</a></li>
+                                 <li><a href="#">Music</a></li>
+                             </ul>
+                         </li>
+                         <li class="col-sm-3">
+                         
+                             <ul>
+                                 <li class="dropdown-header">Sports</li>
+                                 <li><a href="#">Cricket</a></li>
+                                 <li><a href="#">Badminton</a></li>
+                                 <li><a href="#">Shooting</a></li>
+                                 <li><a href="#">VolleyBall</a></li>
+                                 <li><a href="#">Athletics</a></li>
+                                 <li><a href="#">Hockey</a></li>
+                                 <li><a href="#">Lastest Series</a></li>
+                                 
+                                 <li class="divider"></li>
+                                 <li class="dropdown-header">Food and Travel</li>
+                                 <li><a href="#">Recipes</a></li>
+                                 <li><a href="#">Health</a></li>
+                                 <li><a href="#">Diet Plans</a></li>
+                                 <li><a href="#">Recipe Videos</a></li>
+                                 <li><a href="#">Desserts</a></li>
+                             </ul>
+                         </li>
+                         
+                     </ul>
+                 </li>
+            
+         <!-- ###	 -->
+             <li class="dropdown dropdown-large">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tech <b class="caret"></b></a>
+                     
+                     <ul class="dropdown-menu dropdown-menu-large row">
+                         <li class="col-sm-6">
+                         <ul>
+                             <li class="border_bottom_1 bold_1"><a href="#">1Lorem ipsum dolor sit amet</a></li>
+                             <li class="border_bottom_1"><a href="#">2Consectetur adipiscing elit integer nec</a></li>
+                             <li class="border_bottom_1"><a href="#">3Sed cursus ante dapibus diam.</a></li>
+                             <li class="border_bottom_1"><a href="#">4Nulla quis sem at nibh  imperdiet.</a></li>
+                             <li class="border_bottom_1"><a href="#">5Duis sagittis ipsum. Praesent mauris.</a></li>
+                             <li class="border_bottom_1"><a href="#"> 6Fusce nec tellus sed augue semper porta.</a></li>
+                             <li class="border_bottom_1"><a href="#">7Vestibulum lacinia arcu eget nulla</a></li>
+                             <li class="border_bottom_1"><a href="#">8Class aptent taciti sociosqu ad litora </a></li>
+                                 
+                                 
+                             </ul>
+                           
+                         <li class="col-sm-6">
+                             <ul>
+                                 <li class="dropdown-header">Tech</li>
+                                 <li><a href="#">Mobiles</a></li>
+                                 <li><a href="#">Pcs</a></li>
+                                 <li><a href="#">Apps</a></li>
+                                 <li><a href="#">IT Services</a></li>
+                                 <li><a href="#">Gaming</a></li>
+                                 <li><a href="#">Telecom</a></li>
+     
+                                 
+                                 
+                             </ul>
+                         </li>
+                         
+                     </ul>
+                 </li>
+             
+             
+             <!-- #### -->
+             
+             <!-- ###	 -->
+             <li class="dropdown dropdown-large">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">R & D <b class="caret"></b></a>
+                     
+                     <ul class="dropdown-menu dropdown-menu-large row">
+                         <li class="col-sm-6">
+                         <ul>
+                             <li class="border_bottom_1 bold_1"><a href="#">Lorem ipsum dolor sit amet</a></li>
+                             <li class="border_bottom_1"><a href="#">Consectetur adipiscing elit integer nec</a></li>
+                             <li class="border_bottom_1"><a href="#">Sed cursus ante dapibus diam.</a></li>
+                             <li class="border_bottom_1"><a href="#">Nulla quis sem at nibh  imperdiet.</a></li>
+                             <li class="border_bottom_1"><a href="#">Duis sagittis ipsum. Praesent mauris.</a></li>
+                             <li class="border_bottom_1"><a href="#"> Fusce nec tellus sed augue semper porta.</a></li>
+                             <li class="border_bottom_1"><a href="#">Vestibulum lacinia arcu eget nulla</a></li>
+                             <li class="border_bottom_1"><a href="#">Class aptent taciti sociosqu ad litora </a></li>
+                                 
+                                 
+                             </ul>
+                           
+                         <li class="col-sm-6">
+                             <ul>
+                                 <li class="dropdown-header">R & D</li>
+                                 <li><a href="#">Education</a></li>
+                                 <li><a href="#">Agriculture</a></li>
+                                 <li><a href="#">Science</a></li>
+                                 <li><a href="#">Automobiles</a></li>
+                                 <li><a href="#">Locomotives</a></li>
+                                 <li><a href="#">Telecom</a></li>
+                                 <li><a href="#">Gadgets</a></li>
+                             
+                             </ul>
+                         </li>
+                         
+                     </ul>
+                 </li>
+             </ul>
+             
+             <!-- #### -->
+             
+           </div>
+         </div>
+       </div>
+     </nav>
+       </section>
+     
+       {%block body-block%}
+       {%endblock%}
+
+
+
+    <section id="footer">
+   <div class="container">
+    <div class="row">
+	 <div class="col-sm-12">
+	   <div class="col-sm-8">
+	    <div class="footer_1">
+		<a href="#"> India, North Zone</a>
+		<a href="#"><i class="fa fa-cloud"></i></a>
+		<a href="#">9°</a>
+		</div>
+	   </div>
+	   <div class="col-sm-4">
+	     <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-primary" type="button">
+                                                Go!</button>
+                                        </span>
+                                    </div>
+	   </div>
+	 </div>
+	 <div class="col-sm-12 count_3">
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">States</a></li>
+		   <li><a href="#">Andaman & Nicobar </a></li>
+		   <li><a href="#">Andhra Pradesh</a></li>
+		   <li><a href="#">Telangana</a></li>
+		   <li><a href="#">Orissa</a></li>
+		   <li><a href="#">West Bengal</a></li>
+		   <li><a href="#">UP</a></li>
+		   <li><a href="#">MP</a></li>
+		   <li><a href="#">RJ</a></li>
+		 </ul>
+		</div>
+	  </div>
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#"> Politic World</a></li>
+		   <li><a href="#">South</a></li>
+		   <li><a href="#">North</a></li>
+		   <li><a href="#">East</a></li>
+		   <li><a href="#">West</a></li>
+		 </ul>
+		</div>
+	  </div>
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">Pricing</a></li>
+		   <li><a href="#">India</a></li>
+		   <li><a href="#">America</a></li>
+		   <li><a href="#">France</a></li>
+		   <li><a href="#">UAE</a></li>
+		 </ul>
+		</div>
+	  </div>
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">Games</a></li>
+		  <li><a href="#">South</a></li>
+		   <li><a href="#">North</a></li>
+		   <li><a href="#">East</a></li>
+		 </ul>
+		</div>
+	  </div>
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">Article</a></li>
+		   <li><a href="#">India</a></li>
+		   <li><a href="#">America</a></li>
+		   <li><a href="#">UAE</a></li>
+		   <li><a href="#">France</a></li>
+		</ul>
+		</div>
+	  </div>
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">Integer</a></li>
+		    <li><a href="#">Paris</a></li>
+		   <li><a href="#">America</a></li>
+		   <li><a href="#">India</a></li>
+		   <li><a href="#">UAE</a></li>
+		   <li><a href="#">South</a></li>
+		   <li><a href="#">North</a></li>
+		   <li><a href="#">East</a></li>
+		   <li><a href="#">West</a></li>
+		 </ul>
+		</div>
+	  </div>
+	 </div>
+	 <div class="col-sm-12">
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">Journey</a></li>
+		   <li><a href="#">Paris</a></li>
+		   <li><a href="#">America</a></li>
+		   <li><a href="#">Italy</a></li>
+		   <li><a href="#">Bali</a></li>
+		   <li><a href="#">South</a></li>
+		   <li><a href="#">North</a></li>
+		   <li><a href="#">East</a></li>
+		   <li><a href="#">West</a></li>
+		 </ul>
+		</div>
+	  </div>
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">Fashion</a></li>
+		   <li><a href="#">West</a></li>
+		   <li><a href="#">South</a></li>
+		   <li><a href="#">North</a></li>
+		   <li><a href="#">East</a></li>
+		 </ul>
+		</div>
+	  </div>
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">Trending</a></li>
+		  <li><a href="#">India</a></li>
+		   <li><a href="#">America</a></li>
+		   <li><a href="#">UAE</a></li>
+		   <li><a href="#">France</a></li>
+		 </ul>
+		</div>
+	  </div>
+	  <div class="col-sm-2">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">Player</a></li>
+		   <li><a href="#">India</a></li>
+		   <li><a href="#">South</a></li>
+		   <li><a href="#">North</a></li>
+		 </ul>
+		</div>
+	  </div>
+	  <div class="col-sm-4">
+	    <div class="footer_2">
+		 <ul>
+		   <li class="bold_2"><a href="#">Extra...</a></li>
+		    <li><a href="#">India</a></li>
+		   <li><a href="#">America</a></li>
+		   <li><a href="#">UAE</a></li>
+		   <li><a href="#">France</a></li>
+		</ul>
+		</div>
+	  </div>
+	 </div>
+	 <div class="col-sm-12 count_5">
+	   <div class="footer_3">
+	     <span><a href="#">Rojpartika</a></span>
+		 <!-- <a href="#">Latest Launching +</a> -->
+	   </div>
+	 </div>
+	 <div class="col-sm-12">
+	   <div class="footer_4 text-right">
+	     <p>© 2020 Your Website Name. All Rights Reserved | Design by <a href="">TemplateOnWeb</a></p>
+	   </div>
+	 </div>
+	 <div class="col-sm-12">
+	   <div class="footer_4 text-right">
+	     <p>Rojpartika</p>
+	   </div>
+	 </div>
+	 <div class="col-sm-12">
+	   <div class="footer_5 text-right">
+	     <a href="#">Terms and Condition</a>
+		 <a href="#">Privacy</a>
+		 <a href="#">Choices</a>
+		 <a href="#">Advertising</a>
+		 <a href="#">Newsletters</a>
+		 <a href="#">About us</a>
+		 <a href="#">Our Work</a>
+		 <a href="#">For Help</a>
+		 <a href="#">Scripts</a>
+		 <a href="#">License </a>
+		 <a class="border_none_1" href="#">Rojpartika source</a>
+	   </div>
+	 </div>
+	</div>
+   </div>
+  </section>
+  
+  </body>
+       
+</html>
